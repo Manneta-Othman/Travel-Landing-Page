@@ -1,11 +1,12 @@
 import React from 'react'
 import {BiSearch} from 'react-icons/bi';
 import {BsPerson} from 'react-icons/bs';
+import  './navbar.scss';
 
 export default function Navbar() {
   return (
-    <div className='navebar'>
-        <div className="logo">Manneta</div>
+    <div className='navbar'>
+        <div className="logo">M-Travel</div>
         <ul className='nav-menu'>
             <li>Home</li>
             <li>Destination</li>
@@ -14,8 +15,8 @@ export default function Navbar() {
             <li>Views</li>
         </ul>
         <div className="nav-icons">
-            <BiSearch />
-            <BsPerson />
+            <BiSearch className='search'/>
+            <BsPerson className='person'/>
         </div>
     </div>
   )
