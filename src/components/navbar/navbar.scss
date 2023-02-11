@@ -1,10 +1,10 @@
 .navbar{
     width: 100%;
     height: 70px;
-    background-color: rgb(84, 174, 209);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
 
     .logo{
         font-size: 40px;
@@ -18,8 +18,8 @@
         align-items: center;
 
         li{
-            font-size: 18px;
-            font-weight: 400;
+            font-size: 20px;
+            font-weight: 500;
             color: white;
             margin: 0 10px;
         }
@@ -28,13 +28,13 @@
     .nav-icons{
         display: flex;
         align-items: center;
-        font-size: 25px;
         color: white;
         margin-right: 20px;
 
-
-        .search,person{
+        .icon{
+            font-size: 25px;
             margin: 0 10px;
+            cursor: pointer;
         }
     }
 

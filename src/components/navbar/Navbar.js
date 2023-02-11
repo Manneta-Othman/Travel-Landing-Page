@@ -8,15 +8,15 @@ export default function Navbar() {
     <div className='navbar'>
         <div className="logo">M-Travel</div>
         <ul className='nav-menu'>
-            <li>Home</li>
-            <li>Destination</li>
-            <li>Travel</li>
-            <li>Book</li>
-            <li>Views</li>
+            <a href="#home"><li>Home</li></a>
+            <a href="#destination"><li>Destination</li></a>
+            <a href="#travel"><li>Travel</li></a>
+            <a href="#book"><li>Book</li></a>
+            <a href="#views"><li>Views</li></a>
         </ul>
         <div className="nav-icons">
-            <BiSearch className='search'/>
-            <BsPerson className='person'/>
+            <BiSearch className='icon'/>
+            <BsPerson className='icon'/>
         </div>
     </div>
   )
