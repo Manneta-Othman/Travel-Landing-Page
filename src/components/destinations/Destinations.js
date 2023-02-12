@@ -4,6 +4,8 @@ import maldives2 from '../../assets/maldives2.jpg';
 import maldives from '../../assets/maldives.jpg';
 import borabora from '../../assets/borabora.jpg';
 import borabora2 from '../../assets/borabora2.jpg';
+import gold from '../../assets/gold.png';
+
 
 
 export default function Destinations() {
@@ -20,6 +22,53 @@ export default function Destinations() {
                 <img src={maldives} alt="" />
                 <img src={borabora} alt="" />
                 <img src={borabora2} alt="" />
+            </div>
+        </div>
+        <div className="destinations-content">
+            <div className="content-left">
+                <h2>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam amet, beatae ut error molestiae voluptas distinctio, qui, iusto deleniti fugit nemo incidunt cumque ad praesentium sapiente placeat magnam quibusdam!</p>
+                
+                <div className="bottom">
+                <div className="left-bottom">
+                    <img src={gold} alt="" />
+                    <div className="desc">
+                        <h3>WORLD'S LEADING</h3>
+                        <p>ALL-INCLUSIVE COMPANY FOR 20 YEARS IN-A-ROW</p>
+                    </div>
+                </div>
+                <div className="right-bottom">
+                    <h3>NO ONE INCLUDES MORE</h3>
+                    <p>ALL-INCLUSIVE COMPANYFOR 20 YEARS IN-A-ROW</p>
+                    <button>VIEW PACKAGES</button>
+                </div>
+                </div>
+            </div>
+            <div className="content-right">
+                <div className="top-right">
+                <h2> GET AN ADDITIONAL 7% OFF</h2>
+                <p>12 HOURS LEFT!</p>
+                <span>VIEW ALL CURRENT OFFERS</span>
+                </div>
+                <div className="bottom-right">
+                    <label >Destination</label>
+                    <select id="Destination">
+                        <option value="Grande Antigua">Grande Antigua</option>
+                        <option value="Maldives">Maldives</option>
+                        <option value="BoraBora">BoraBora</option>
+                    </select>
+                    <div className="check">
+                            <div className="check-in">
+                                <label>Check-In</label>
+                                <input type="date" className="date-in" />
+                            </div>
+                            <div className="check-out">
+                                <label>Check-Out</label>
+                                <input type="date" className="date-out" />
+                            </div>
+                    </div>
+                    <button>Rates & Availabilities</button>
+                </div>
             </div>
         </div>
     </div>
