@@ -4,8 +4,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 10;
-    position: fixed;
+    z-index: 1;
+    position: absolute;
     top: 0;
 
     .logo{
