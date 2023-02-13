@@ -52,7 +52,7 @@ export default function Destinations() {
                 </div>
                 <div className="bottom-right">
                     <label >Destination</label>
-                    <select id="Destination">
+                    <select id="destination">
                         <option value="Grande Antigua">Grande Antigua</option>
                         <option value="Maldives">Maldives</option>
                         <option value="BoraBora">BoraBora</option>
