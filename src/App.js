@@ -2,6 +2,7 @@ import './App.scss';
 import Destinations from './components/destinations/Destinations';
 import Home from './components/home/Home';
 import Travel from './components/travel/Travel';
+import Views from './components/views/Views';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Home />
         <Destinations />
         <Travel />
+        <Views />
       </div>
   );
 }
