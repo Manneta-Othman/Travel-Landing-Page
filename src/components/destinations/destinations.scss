@@ -17,7 +17,6 @@
 
     .galery{
         display: flex;
-        justify-content: space-between;
         align-items: center;
         max-width: 900px;
         height: 300px;
@@ -26,7 +25,7 @@
         .img-left{
             flex: 7;
             height: 100%;
-            margin-right: 5px;
+            margin: 0 5px;
 
             img{
                 width: 100%;
