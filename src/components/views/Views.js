@@ -13,7 +13,8 @@ export default function Views() {
   return (
 <div id='views'>
   <Carousel className="carousel" autoPlay={true} infiniteLoop={true} 
-  showArrows={false} showStatus={false} showThumbs={false} showIndicators={false}>
+  showArrows={false} showStatus={false} showThumbs={false} showIndicators={false}
+  >
         <div>
             <img src={keywest} />
         </div>
